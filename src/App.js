@@ -4,6 +4,7 @@ import ClassCounter from './components/ClassCounter';
 import ClassEffectCounter from './components/ClassEffectCounter';
 import ClassMouse from './components/ClassMouse';
 import ComponentC from './components/ComponentC';
+import CounterOne from './components/CounterOne';
 import DataFetching from './components/DataFetching';
 import DataFetchingTwo from './components/DataFetchingTwo';
 import FuncCondEffectCounter from './components/FuncCondEffectCounter';
@@ -18,6 +19,7 @@ import IntervalHookCounter from './components/IntervalHookCounter';
 import MouseContainer from './components/MouseContainer';
 import { createContext } from 'react';
 import React from 'react';
+import ParentComponent from './components/ParentComponent';
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext()
@@ -26,7 +28,10 @@ function App() {
   return (
     <div className="App">
 
-      
+      <ParentComponent/>
+
+
+      {/* <CounterOne/> */}
 
 
       {/* <UserContext.Provider value={"Hussnain"}>

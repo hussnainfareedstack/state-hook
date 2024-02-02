@@ -154,17 +154,18 @@ We can see that in this class context way nesting looks bad and also not look ea
 <a href="https://youtu.be/UjjtvroahBU?si=na1DTHMjh_YINoGQ" target="_blank">Video Explanation</a></br>
 
 In useContext context provider way remains same but the consumption way changed. 
+
 Provider:
-<img src="Images/60-17 Context API Provider way .png" >
+</br><img src="Images/60-17 Context API Provider way .png" >
 Consumption:
-<img src="Images/60-17 - useContext Hook Consumption way.png">
+</br><img src="Images/60-17 - useContext Hook Consumption way.png">
 
 
 
 # useReducer Hook 
 <a href="https://youtu.be/cVYp4u1m6iA?si=ILOX-fEtJHzv_RsI" target="_blank">Video Explanation</a></br>
 
-<img src="Images/61-18 - useReducer Definition.png.png">
+<img src="Images/61-18 - useReducer Definition.png">
 <img src="Images/61-18 - Hooks so far learned.png">
 <img src="Images/61-18 - reduce method vs useReducer.png">
 <img src="Images/61-18 - useReducer Summery.png">
@@ -174,9 +175,23 @@ Consumption:
 # useReducer (simple state & action)
 <a href="https://youtu.be/cVYp4u1m6iA?si=ILOX-fEtJHzv_RsI" target="_blank">Video Explanation</a></br>
 
+* See files 'counterOne.js'
+
+.
+.
+.
 
 
 
+# useCallback Hook
+<a href="https://youtu.be/IL82CzlaCys?si=MZd69msg5dMshdBD" target="_blank">Video Explanation</a></br>
+
+useCallback Hook is used to avoid re-render or call of the function if nothing has changed.
+React memo will not work if we are passing a different 'callback function' through props when using more than 1 component of same, because props changes so React memo will re-render. SO we have to write that function inside useCallback.
+
+<img src="Images/69-26 - useCallback Hook - what-why.png">
+<img src="Images/69-26 - useCallback Hook - how.png">
+<img src="Images/69-26 - useCallback Hook - How pass.png">
 
 
 
