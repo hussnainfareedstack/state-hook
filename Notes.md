@@ -122,12 +122,57 @@ Fetch the data from 'JSON Placeholder API' using axios and show on UI.
 # Fetching data with useEffect Part 2 & 3 (Fetch indiviual post)-(Fetch post on button click via useEffect)
 <a href="https://youtu.be/1tfd6ANaNRY?si=iKaXNdTJXXvgeNB7" target="_blank">Video Explanation</a></br>
 
+Part2: To fetch individual post set input box id as dependency of useEffect.
+Part3: useEffect work on dependencies, if you set id related to button as a dependency of useEffect then it will re-render only when button id change.
+
 * See files 'DataFetchingTwo.js'
 
 
+# useContext Hook Part 1 (Context Definition)
+<a href="https://youtu.be/CI7EYWmRDJE?si=jZA5LwTlqcObMNBY" target="_blank">Video Explanation</a></br>
+
+Context provide a way to pass data through the component tree without having to pass props down manually to every level.
+
+
+# useContext Hook Part 2 (Class Context)
+<a href="https://youtu.be/tEqNSOhCHLU?si=XKCeYp8sH3501m6L" target="_blank">Video Explanation</a></br>
+
+For details go to React-basic-advance-cv repository and in notes read 'Context' topic.
+
+Provider:
+<img src="Images/60-17 Context API Provider way .png" >
+Consumption:
+<img src="Images/59-16 Context Api Consumption way.png" >
+
+We can see that in this class context way nesting looks bad and also not look easier to read/understand. But useContext Hook solves this, let do in next part.
+
+* See files 'App.js', 'ComponentC.js', 'ComponentE.js', 'ComponentF.js'
 
 
 
+# useContext Hook Part 3 (useContext Hook)
+<a href="https://youtu.be/UjjtvroahBU?si=na1DTHMjh_YINoGQ" target="_blank">Video Explanation</a></br>
+
+In useContext context provider way remains same but the consumption way changed. 
+Provider:
+<img src="Images/60-17 Context API Provider way .png" >
+Consumption:
+<img src="Images/60-17 - useContext Hook Consumption way.png">
+
+
+
+# useReducer Hook 
+<a href="https://youtu.be/cVYp4u1m6iA?si=ILOX-fEtJHzv_RsI" target="_blank">Video Explanation</a></br>
+
+<img src="Images/61-18 - useReducer Definition.png.png">
+<img src="Images/61-18 - Hooks so far learned.png">
+<img src="Images/61-18 - reduce method vs useReducer.png">
+<img src="Images/61-18 - useReducer Summery.png">
+
+
+
+# useReducer (simple state & action)
+<a href="https://youtu.be/cVYp4u1m6iA?si=ILOX-fEtJHzv_RsI" target="_blank">Video Explanation</a></br>
 
 
 
