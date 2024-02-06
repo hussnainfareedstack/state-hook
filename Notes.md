@@ -193,20 +193,32 @@ React memo will not work if we are passing a different 'callback function' throu
 <img src="Images/69-26 - useCallback Hook - how.png">
 <img src="Images/69-26 - useCallback Hook - How pass.png">
 
+* See files 'ParentComponent.js', 'Button.js', 'Title.js', 'Count.js'.
 
 
 
+# useMemo Hook
+<a href="https://youtu.be/qySZIzZvZOY?si=1YvP_zhb6hhEqPXL" target="_blank">Video Explanation</a></br>
+
+useMemo and useCallback are same in using. 
+Diff: useMemo caches the result of function and useCallback caches the function instances.
+
+* See file 'Counter.js'
 
 
 
+#  useRef Hook Part 1
+<a href="https://youtu.be/yCS2m01bQ6w?si=qio-176ri9lZWr98" target="_blank">Video Explanation</a></br>
+
+useRef is used to directly access the DOm Nodes.
 
 
+# useRef Hook Part 2
+<a href="https://youtu.be/LWg0OyZQffc?si=jaybj0NyampPga_D" target="_blank">Video Explanation</a></br>
 
+useRef can also be used to store any mutable value and it also persist through re-renders and not cause any additional renders.
 
-
-
-
-
+* See files 'ClassTimer.js', 'HookTimer.js'
 
 
 

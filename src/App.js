@@ -20,6 +20,10 @@ import MouseContainer from './components/MouseContainer';
 import { createContext } from 'react';
 import React from 'react';
 import ParentComponent from './components/ParentComponent';
+import Counter from './components/Counter';
+import FocusInput from './components/FocusInput';
+import ClassTimer from './components/ClassTimer';
+import HookTimer from './components/HookTimer';
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext()
@@ -28,7 +32,18 @@ function App() {
   return (
     <div className="App">
 
-      <ParentComponent/>
+
+      {/* <HookTimer/>
+      <ClassTimer/> */}
+
+
+      {/* <FocusInput/> */}
+
+
+      {/* <Counter/> */}
+
+
+      {/* <ParentComponent/> */}
 
 
       {/* <CounterOne/> */}
